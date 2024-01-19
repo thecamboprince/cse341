@@ -1,12 +1,10 @@
-// Require the 'express' module and create a router instance
-const routes = require('express').Router();
+// Importing the 'express' library to create a router
+const express = require('express');
+const router = express.Router();
 
-// Require the 'myController' module
-const myController = require('../controllers');
+router.use('/', require('./home'));
+// Mounting the '/contacts' route by using the 'contacts' module
+router.use('/contacts', require('./contacts'));
 
-// Define routes for the root path '/' and '/awesome', using functions from the 'myController' module
-routes.get('/', myController.awesomeFunction);
-routes.get('/awesome', myController.returnAnotherPerson);
-
-// Export the router for use in other modules
-module.exports = routes;
+// Exporting the router to be used in other parts of the application
+module.exports = router;

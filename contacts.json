@@ -1,0 +1,23 @@
+[
+  {
+      "firstName": "Viriya",
+      "lastName": "Duggan",
+      "email": "viriya@testing.com",
+      "favoriteColor": "Pink",
+      "birthday": "09/05/1996"
+  },
+  {
+      "firstName": "Angela",
+      "lastName": "Duggan",
+      "email": "angela@test.com",
+      "favoriteColor": "Pink",
+      "birthday": "07/30/10"
+  },
+  {
+      "firstName": "Maikah",
+      "lastName": "Pen",
+      "email": "maikah@test.com",
+      "favoriteColor": "Yellow",
+      "birthday": "08/05/11"
+  }
+]

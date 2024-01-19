@@ -1,0 +1,19 @@
+// LOCALHOST
+###
+GET http://localhost:8080/contacts
+###
+GET http://localhost:8080/contacts/65aadc87388a28ce3fbd7f73
+###
+GET http://localhost:8080/contacts/65aadc87388a28ce3fbd7f74
+###
+GET http://localhost:8080/contacts/65aadc87388a28ce3fbd7f75
+
+// PRODUCTION Deploy on Renders
+###
+GET https://cse341-lesson2-personal-project.onrender.com/contacts
+###
+GET https://cse341-lesson2-personal-project.onrender.com/contacts/65aadc87388a28ce3fbd7f73
+###
+GET https://cse341-lesson2-personal-project.onrender.com/contacts/65aadc87388a28ce3fbd7f74
+###
+GET https://cse341-lesson2-personal-project.onrender.com/contacts/65aadc87388a28ce3fbd7f75
