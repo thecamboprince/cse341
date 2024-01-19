@@ -1,4 +1,4 @@
-# Important commands to get this Lesson 2 Team Project going.
+# Important commands to get things going.
 
 ### Make sure to Change Directory to where the 'server.js or app.js' is BEFORE you can init or use 'npm start'
 cd .\paste in your directory here\
