@@ -1,7 +1,7 @@
 # Important commands to get this Lesson 2 Team Project going.
 
-### Make sure to Change Directory to Backend BEFORE you can init or use 'npm start'
-cd .\'paste in your directory'\
+### Make sure to Change Directory to where the 'server.js or app.js' is BEFORE you can init or use 'npm start'
+cd .\paste in your directory here\
 ##
 ### Initialize npm
 npm init
