@@ -18,7 +18,7 @@ app.use(bodyParser.json())
     next();
   })
   // Mounting the routes defined in the 'routes' module
-  .use('/', require('./routes/home'));
+  .use('/', require('./routes'));
 
 // Initializing the MongoDB connection
 mongodb.initDb((err, mongodb) => {
