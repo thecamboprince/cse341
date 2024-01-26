@@ -16,8 +16,8 @@ content-type: application/json
 "favoriteColor" :"black",
 "birthday" :"01/01/1200" }
 
-### PUT contact 
-PUT http://localhost:8080/contacts/65b40b6613d8b8455841fd62 HTTP/1.1 
+### Update contact 
+PUT http://localhost:8080/contacts/65b40d4613d8b8455841fd63 HTTP/1.1 
 content-type: application/json
 
 { "firstName" :"Aegon",
@@ -26,8 +26,8 @@ content-type: application/json
 "favoriteColor" :"black",
 "birthday" :"01/01/1200" }
 
-### DELETE contact 
-DELETE http://localhost:8080/contacts/65b40b6613d8b8455841fd62 HTTP/1.1
+### Delete contact 
+DELETE http://localhost:8080/contacts/65b40d4613d8b8455841fd63 HTTP/1.1
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -50,8 +50,8 @@ content-type: application/json
 "favoriteColor" :"black",
 "birthday" :"01/01/1200" }
 
-### PUT contact 
-PUT https://cse341-zp04.onrender.com/contacts/65b405ef22cc1e5d23796219 HTTP/1.1 
+### Update contact 
+PUT https://cse341-zp04.onrender.com/contacts/65b40dc644e0e861a3eafc31 HTTP/1.1 
 content-type: application/json
 
 { "firstName" :"Aegon",
@@ -60,5 +60,5 @@ content-type: application/json
 "favoriteColor" :"black",
 "birthday" :"01/01/1200" }
 
-### DELETE contact 
-DELETE https://cse341-zp04.onrender.com/contacts/65b405ef22cc1e5d23796219 HTTP/1.1
+### Delete contact 
+DELETE https://cse341-zp04.onrender.com/contacts/65b40dc644e0e861a3eafc31 HTTP/1.1
