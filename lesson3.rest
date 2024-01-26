@@ -17,7 +17,7 @@ content-type: application/json
 "birthday" :"01/01/1200" }
 
 ### PUT contact 
-PUT http://localhost:8080/contacts/65b34b7a96b9244ad36cba1c HTTP/1.1 
+PUT http://localhost:8080/contacts/65b4052d735c738e35e44575 HTTP/1.1 
 content-type: application/json
 
 { "firstName" :"Aegon",
@@ -27,7 +27,7 @@ content-type: application/json
 "birthday" :"01/01/1200" }
 
 ### DELETE contact 
-DELETE http://localhost:8080/contacts/65b34b7a96b9244ad36cba1c HTTP/1.1
+DELETE http://localhost:8080/contacts/65b4052d735c738e35e44575 HTTP/1.1
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -51,7 +51,7 @@ content-type: application/json
 "birthday" :"01/01/1200" }
 
 ### PUT contact 
-PUT https://cse341-zp04.onrender.com/contacts/65b350310debfa6dbe6cafbf HTTP/1.1 
+PUT https://cse341-zp04.onrender.com/contacts/65b405ef22cc1e5d23796219 HTTP/1.1 
 content-type: application/json
 
 { "firstName" :"Aegon",
@@ -61,4 +61,4 @@ content-type: application/json
 "birthday" :"01/01/1200" }
 
 ### DELETE contact 
-DELETE https://cse341-zp04.onrender.com/contacts/65b350310debfa6dbe6cafbf HTTP/1.1
+DELETE https://cse341-zp04.onrender.com/contacts/65b405ef22cc1e5d23796219 HTTP/1.1
