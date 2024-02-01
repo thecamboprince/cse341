@@ -2,7 +2,7 @@
 const express = require("express");
 const router = express.Router();
 
-router.use("./", require("./swagger"));
+router.use("/", require("./swagger"));
 router.use("/", require("./home"));
 // Mounting the '/contacts' route by using the 'contacts' module
 router.use("/contacts", require("./contacts"));

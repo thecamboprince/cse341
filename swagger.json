@@ -1,16 +1,26 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "CSE 341 API",
-    "description": "CSE 341 Routes",
+    "title": "My API",
+    "description": "Temple API",
     "version": "1.0.0"
   },
-  "host": "cse341-zp04.onrender.com",
+  "host": "localhost:8080",
   "basePath": "/",
   "schemes": [
-    "https"
+    "http"
   ],
   "paths": {
+    "/api-docs": {
+      "get": {
+        "description": "",
+        "responses": {
+          "default": {
+            "description": ""
+          }
+        }
+      }
+    },
     "/": {
       "get": {
         "description": "",
@@ -33,7 +43,7 @@
     },
     "/contacts/": {
       "get": {
-        "description": "",
+        "description": "Getting all contacts from our database",
         "produces": [
           "application/json"
         ],
@@ -44,7 +54,7 @@
         }
       },
       "post": {
-        "description": "",
+        "description": "Creating a single contact to our database",
         "parameters": [
           {
             "name": "body",
@@ -83,7 +93,7 @@
     },
     "/contacts/{id}": {
       "get": {
-        "description": "",
+        "description": "Getting a single contact from our database using id",
         "produces": [
           "application/json"
         ],
@@ -102,7 +112,7 @@
         }
       },
       "put": {
-        "description": "",
+        "description": "Updating a single contact to our database",
         "parameters": [
           {
             "name": "id",
@@ -145,7 +155,7 @@
         }
       },
       "delete": {
-        "description": "",
+        "description": "Deleting a single contact to our database",
         "parameters": [
           {
             "name": "id",
@@ -157,9 +167,6 @@
         "responses": {
           "200": {
             "description": "OK"
-          },
-          "404": {
-            "description": "Not Found"
           },
           "500": {
             "description": "Internal Server Error"
