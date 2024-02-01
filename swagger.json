@@ -5,7 +5,7 @@
     "description": "Temple API",
     "version": "1.0.0"
   },
-  "host": "localhost:8080",
+  "host": "cse341-zp04.onrender.com",
   "basePath": "/",
   "schemes": [
     "http"
