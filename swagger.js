@@ -5,7 +5,7 @@ const swaggerAutogen = require("swagger-autogen")();
 const doc = {
   info: {
     title: "My API", // Specify the title of the API documentation
-    description: "Temple API", // Provide a brief description of the API
+    description: "Contact API", // Provide a brief description of the API
   },
   host: "cse341-zp04.onrender.com", // Define the host where the API is hosted
   schemes: ["https"], // Specify the communication protocol (in this case, HTTPS)
